@@ -1,0 +1,183 @@
+/* CONTAINERS AND SECTIONS*/
+
+    /*Sections (in order of appearance):
+    - Title
+    - Features
+    - Testimonials
+    - Press
+    - Pricing
+    - Call to Action (CTA)
+    - Footer*/
+
+    #features, #testimonials,#press, #pricing, #cta, #footer{
+        text-align: center;
+    }
+    .colored-section{
+        background-color: #ff4c68;
+        color: white;
+    }
+    .white-section{
+        background-color: white;
+    }
+    #testimonials, #press{
+        background-color: #EF8172;
+    }
+    /*Title Section*/
+    .container-fluid{
+        padding: 3% 15% 15% 15%;
+    }
+    /*Features Section*/
+    #features {
+        padding: 10rem 15rem 1rem 15rem;
+        position: relative;
+        z-index: 1;
+    }
+    /*Press Section*/
+    #press{
+        padding-bottom: 3%;
+    }
+    /*Pricing Section*/
+    #pricing {
+        padding: 100px;
+    }
+    .pricing-column{
+        padding: 3% 2%;
+    }
+    /*CTA Section*/
+    #cta {
+        padding: 5%;    
+    }
+    /*Footer Section*/
+    #footer {
+        padding: 5% 5% 3% 5%;    
+    }
+    
+    
+
+/* TEXT*/
+
+    body{
+        font-family: 'Montserrat', sans-serif;
+    }
+    /*Headers*/
+        /*Testimonial and title headers*/
+        .testimonial-header, .title-header{
+            line-height: 1.5;
+        }
+        /*Testimonial and pricing headers*/
+        .testimonial-header, .pricing-header{
+            font-size: 3rem;
+            font-weight: 800;
+        }
+        /*Title Header*/
+        .title-header {
+            font-size: 4rem;
+            font-weight: 900;
+        }
+        /*Features Header*/
+        .feature-header{
+            font-weight: 800;  
+            font-size: 1.7rem;
+        }
+    /*Paragraphs*/
+        /*Feature and Footer paragraphs*/
+        .feature-par,.footer-par{
+            font-size: 1rem;
+            font-weight: 500;
+            color: #8F8F8F; 
+        }
+        /*Feature paragraph*/
+        .feature-par{
+            padding-bottom: 10rem;
+        }
+        /*CTA paragraph*/
+        .cta-par{
+            font-size: 3rem;
+            font-weight: 800;
+            line-height: 1.5;
+            padding: 0% 25%;
+        }
+
+/*BOOTSTRAP FEATURES*/
+
+    /*Navigation Bar*/
+        .navbar{
+            padding: 0 0 4.5rem 0;
+        }
+        .nav-item{
+            padding: 0 18px;
+        }
+        .nav-link{
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+        .navbar-brand{
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 3rem;
+            font-weight: 500;
+            padding: 0;
+        }
+    /*Download Buttons*/
+        .download-button,.cta-button{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        /*Title Button*/
+        .download-button{
+            margin: 5% 3% 5% 0;
+        }
+        /*CTA Button*/
+        .cta-button{
+            margin: 4% 3% 2% 0%;
+        }
+    /*Carousel*/
+        .carousel-item{
+            padding: 7% 15%;
+        }
+
+/*IMAGES AND ICONS*/
+
+    /*Title Image*/
+        .title-image{
+            width: 60%;
+            transform: rotate(25deg);
+            position: absolute;
+            right: 30%
+        }
+    /*Testimonial images*/
+        .testimonial-image{
+            width: 10%;
+            border-radius: 100%;
+            margin: 20px;
+        }
+    /*Press images*/
+        .press-image{
+            margin: 20px 20px 50px;
+            width: 15%;
+        }
+    /*Icons*/
+        .features-icon{
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 1.5rem;
+            color: #EF8172
+        }
+        .footer-icon{
+            padding: 10px
+        }
+        .fa-heart:hover,.fa-bullseye:hover,.fa-check-circle:hover{
+            color: #FF4C68;   
+        }
+        
+/*MEDIA QUERY BREAKPOINTS*/
+
+    @media (max-width: 1028px) {
+        .title-image{
+            transform: rotate(0deg);
+            position: static;
+        }
+        #title {
+            text-align: center;
+        }
+        
+    }
