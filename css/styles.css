@@ -180,13 +180,13 @@
             text-align: center;
         }
         #features {
-            padding: 5rem 7.5rem 1rem 7.5rem;
+            padding: 2.5rem 5rem 1rem 5rem;
         }
         .title-header {
-            font-size: 3.5rem;
+            font-size: 3rem;
         }
         .testimonial-header, .pricing-header{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         /*Testimonial images*/
         .testimonial-image{
