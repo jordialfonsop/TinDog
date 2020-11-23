@@ -179,5 +179,25 @@
         #title {
             text-align: center;
         }
+        #features {
+            padding: 5rem 7.5rem 1rem 7.5rem;
+        }
+        .title-header {
+            font-size: 3.5rem;
+        }
+        .testimonial-header, .pricing-header{
+            font-size: 2.5rem;
+        }
+        /*Testimonial images*/
+        .testimonial-image{
+            width: 20%;
+
+        }
+        /*Press images*/
+        .press-image{
+            width: 15%;
+            margin: 10px 10px 25px;
+        }
+        
         
     }
